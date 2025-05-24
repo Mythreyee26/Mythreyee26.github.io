@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mythreyee G P | AWS Certified Cloud Enthusiast Portfolio">
+  <title>Mythreyee G P | AWS + Generative AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Navigation -->
+  <nav class="fixed w-full bg-white shadow z-50">
+    <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+      <a href="#home" class="text-2xl font-bold">Mythreyee</a>
+      <div class="hidden md:flex space-x-8">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#skills" class="hover:text-blue-600">Skills</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+      <button class="md:hidden focus:outline-none" id="menu-btn">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </div>
+    <div class="mobile-menu md:hidden bg-white shadow-lg hidden" id="mobile-menu">
+      <a href="#home" class="block px-6 py-2 hover:text-blue-600">Home</a>
+      <a href="#about" class="block px-6 py-2 hover:text-blue-600">About</a>
+      <a href="#projects" class="block px-6 py-2 hover:text-blue-600">Projects</a>
+      <a href="#skills" class="block px-6 py-2 hover:text-blue-600">Skills</a>
+      <a href="#contact" class="block px-6 py-2 hover:text-blue-600">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-50 to-indigo-50 pt-32 pb-16">
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">Mythreyee G P</h1>
+    <h2 class="text-2xl md:text-3xl text-blue-700 mb-4">AWS Certified Cloud Enthusiast</h2>
+    <p class="text-lg md:text-xl mb-6">Emerging Tech Explorer | AWS + Generative AI Focused</p>
+    <p class="text-md text-gray-600 mb-8">Driven by curiosity, Passionate about building</p>
+    <a href="resume.pdf" download class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition duration-300">Download Resume</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+      <div class="md:w-1/3 flex justify-center mb-8 md:mb-0">
+        <img src="profile.jpg" alt="Mythreyee G P" class="rounded-lg shadow-lg w-60 h-60 object-cover">
+      </div>
+      <div class="md:w-2/3">
+        <h2 class="text-4xl font-bold mb-4">About Me</h2>
+        <p class="text-lg text-gray-700 mb-4">Enthusiastic and results-driven Associate Engineer with 1 year of experience in cloud computing and software development. Passionate about building real-world projects using cloud and AI technologies. Seeking a role where I can utilize my skills in AWS and Python to contribute to a challenging and rewarding environment.</p>
+        <div class="flex flex-wrap gap-4 mt-4">
+          <a href="https://www.linkedin.com/in/mythreyeegp0226/" target="_blank" class="text-blue-700 hover:text-blue-900"><i class="fab fa-linkedin text-2xl"></i></a>
+          <a href="https://github.com/Mythreyee26" target="_blank" class="text-gray-800 hover:text-gray-900"><i class="fab fa-github text-2xl"></i></a>
+          <a href="mailto:contactmythreyee@gmail.com" class="text-red-600 hover:text-red-800"><i class="fas fa-envelope text-2xl"></i></a>
+          <a href="https://leetcode.com/" target="_blank" class="text-yellow-500 hover:text-yellow-700"><i class="fa-solid fa-code text-2xl"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Project 1 -->
+        <div class="project-card bg-white rounded-lg shadow-md p-6 flex flex-col">
+          <h3 class="text-xl font-bold mb-2">Certificates Organizer Using Amazon Textract</h3>
+          <p class="text-gray-600 mb-2">Dec 2024</p>
+          <div class="flex flex-wrap gap-2 mb-2">
+            <span class="bg-gray-100 px-3 py-1 rounded-full text-sm">AWS</span>
+            <span class="bg-gray-100 px-3 py-1 rounded-full text-sm">Textract</span>
+            <span class="bg-gray-100 px-3 py-1 rounded-full text-sm">Lambda</span>
+            <span class="bg-gray-100 px-3 py-1 rounded-full text-sm">DynamoDB</span>
+            <span class="bg-gray-100 px-3 py-1 rounded-full text-sm">S3</span>
+          </div>
+          <ul class="list-disc list-inside text-gray-700 mb-4">
+            <li>Engineered a smart business card management solution leveraging AWS services.</li>
+            <li>Utilized Amazon Textract for OCR-based text extraction from scanned cards.</li>
+            <li>Persisted raw input in Amazon S3 and normalized parsed data into DynamoDB for low-latency access.</li>
+            <li>Orchestrated end-to-end automation using AWS Lambda for event-driven, serverless processing and real-time data ingestion.</li>
+          </ul>
+          <div class="flex gap-4 mt-auto">
+            <a href="https://github.com/Mythreyee26" target="_blank" class="text-blue-600 hover:text-blue-800">GitHub</a>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card bg-white rounded-lg shadow-md p-6 flex flex-col">
+          <h3 class="text-xl font-bold mb-2">Design and Development of CPAP</h3>
+          <p class="text-gray-600 mb-2">Mar 2023</p>
+          <div class="flex flex-wrap gap-2 mb-2">
+            <span class="bg-gray-100 px-3 py-1 rounded-full text-sm">Electro-pneumatic</span>
+            <span class="bg-gray-100 px-3 py-1 rounded-full text-sm">Cloud Platform</span>
+          </div>
+          <ul class="list-disc list-inside text-gray-700 mb-4">
+            <li>Designed a Continuous Positive Airway Pressure device to be used by snoring patients to prevent chronic disease.</li>
+            <li>Utilized electro-pneumatic circuits and signal conditioning boards to achieve optimized CPAP function with low energy consumption.</li>
+            <li>Built a proof-of-concept device with storage in the Cloud Platform.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Skills</h2>
+      <div class="flex flex-wrap justify-center gap-4">
+        <div class="skill-tag bg-gray-100 px-4 py-2 rounded-full text-gray-700 flex items-center"><i class="fab fa-aws mr-2 text-yellow-500"></i>Amazon Web Services</div>
+        <div class="skill-tag bg-gray-100 px-4 py-2 rounded-full text-gray-700 flex items-center"><i class="fab fa-python mr-2 text-blue-500"></i>Python</div>
+        <div class="skill-tag bg-gray-100 px-4 py-2 rounded-full text-gray-700 flex items-center"><i class="fas fa-database mr-2 text-green-600"></i>SQL</div>
+        <div class="skill-tag bg-gray-100 px-4 py-2 rounded-full text-gray-700 flex items-center"><i class="fas fa-terminal mr-2 text-gray-800"></i>Unix/Linux & Shell Scripting</div>
+        <div class="skill-tag bg-gray-100 px-4 py-2 rounded-full text-gray-700 flex items-center"><i class="fab fa-docker mr-2 text-blue-400"></i>Docker</div>
+        <div class="skill-tag bg-gray-100 px-4 py-2 rounded-full text-gray-700 flex items-center"><i class="fab fa-google mr-2 text-red-500"></i>Google Cloud Platform</div>
+        <div class="skill-tag bg-gray-100 px-4 py-2 rounded-full text-gray-700 flex items-center"><i class="fas fa-code mr-2 text-indigo-500"></i>IDEs & Environments</div>
+        <div class="skill-tag bg-gray-100 px-4 py-2 rounded-full text-gray-700 flex items-center"><i class="fab fa-git-alt mr-2 text-orange-500"></i>Version Control</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Contact Me</h2>
+      <div class="max-w-2xl mx-auto">
+        <form class="space-y-6" id="contact-form">
+          <div>
+            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+            <input type="text" id="name" name="name" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+            <input type="email" id="email" name="email" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+            <textarea id="message" name="message" rows="4" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
+          </div>
+          <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">Send Message</button>
+        </form>
+        <div class="flex justify-center space-x-6 mt-8">
+          <a href="https://www.linkedin.com/in/mythreyeegp0226/" target="_blank" class="hover:text-blue-600"><i class="fab fa-linkedin text-2xl"></i></a>
+          <a href="https://github.com/Mythreyee26" target="_blank" class="hover:text-gray-900"><i class="fab fa-github text-2xl"></i></a>
+          <a href="mailto:contactmythreyee@gmail.com" class="hover:text-red-600"><i class="fas fa-envelope text-2xl"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8 mt-8">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <div class="mb-4 md:mb-0">
+        <p>&copy; 2024 Mythreyee G P. All rights reserved.</p>
+      </div>
+      <div class="flex space-x-6">
+        <a href="https://www.linkedin.com/in/mythreyeegp0226/" target="_blank" class="hover:text-blue-400 transition duration-300"><i class="fab fa-linkedin text-2xl"></i></a>
+        <a href="https://github.com/Mythreyee26" target="_blank" class="hover:text-blue-400 transition duration-300"><i class="fab fa-github text-2xl"></i></a>
+        <a href="mailto:contactmythreyee@gmail.com" class="hover:text-blue-400 transition duration-300"><i class="fas fa-envelope text-2xl"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 

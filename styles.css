@@ -1,0 +1,36 @@
+/* Custom styles to complement Tailwind CSS */
+html {
+  scroll-behavior: smooth;
+}
+
+.project-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+}
+.skill-tag {
+  transition: all 0.3s;
+}
+.skill-tag:hover {
+  background-color: #2563eb;
+  color: #fff;
+  transform: scale(1.05);
+}
+.mobile-menu {
+  display: none;
+}
+.mobile-menu.active, .mobile-menu.show {
+  display: block;
+}
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+@media (max-width: 768px) {
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+} 
